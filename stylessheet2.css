@@ -1,0 +1,183 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/*Dette CSS er til mine 3 artikler*/
+
+/*Her er det øverste billede, som viser brugeren hvor hun er henne*/
+.emnebillede img{
+    margin-top: 80px;
+    background-color: red;
+    width: 100%;
+    height: 150px;
+}
+
+/*Artikel 1 over- og underskrift*/
+.artikel_overskrift{
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 290px;
+    margin-right: 290px;
+}
+
+.artikel_overskrift p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.artikel_overskrift h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+/*Artikel 1 flexboks*/
+.artikel1flex{
+    display: flex;
+    padding: 50px;
+}
+
+.artikel1flex div{
+    text-align: left;
+    padding: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.artikel1flex div p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+}
+
+.artikel1flex div h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.artikel1flex div h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.artikel1flex div h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.imgartikel1{
+    background-color: aqua;
+    width: 100%;
+    height: auto;
+}
+
+.garnoverskrift{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+/*Artikel 2 over- og underskrift*/
+.artikel2_overskrift{
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.artikel2_overskrift p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.artikel2_overskrift h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+/*Artikel 2 flexboks*/
+.toflexboks2{
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    height: 500px;
+    width: 500px;
+}
+
+#opskriftimg{
+    height: 1000px;
+    width: 600px;
+    padding: 0px;
+}
+
+.toflexboks2 div{
+    padding: 70px;
+}
+
+.toflexboks2 div p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    text-align: center;
+}
+
+.toflexboks2 div h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 17px;
+}
+
+#tryktilmeld{
+    height: 50px;
+    width: auto;
+}
+
+
+/*Artikel 3 overskrift*/
+#overskrifta3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    text-align: left;
+}
+
+/*Artikel 3 flexbokse*/
+.toflexboks2 div h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: left;
+}
+
+#downloadopskrift{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 23px;
+    text-align: left;
+    color: rgb(213, 176, 8);
+}
+
+.toflexboks2 div a h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: left;
+    color: rgb(213, 176, 8);
+}
+
+.toflexboks2 div h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+    text-align: left;
+}
